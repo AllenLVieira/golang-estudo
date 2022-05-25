@@ -1,8 +1,24 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
+
+	builder := strings.Builder{}
+	var texto string
+	texto = "Meu nome é"
+	fmt.Println(texto)
+	texto2 := " Allen de Lima Vieira"
+	fmt.Println(texto2)
+	builder.WriteString(texto)
+	builder.WriteString(texto2)
+	fmt.Println(builder.String())
+}
+
+/* func main() {
 	var inteiro int
 	inteiro = 10
 	fmt.Println(inteiro)
@@ -18,4 +34,4 @@ func main() {
 	var m int32
 	var n int64
 	fmt.Println(int64(m) + n)
-}
+} */
