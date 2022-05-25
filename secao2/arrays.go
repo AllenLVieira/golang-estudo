@@ -11,6 +11,6 @@ func todo() {
 	fmt.Println(arr)
 }
 
-func main() {
+func main2() {
 	todo()
 }
