@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main() {
+func mainStrings() {
 
 	builder := strings.Builder{}
 	var texto string
