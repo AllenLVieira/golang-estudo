@@ -11,7 +11,7 @@ func trocar(m, n *int) {
 	*m = temp
 }
 
-func main() {
+func mainPointers() {
 	x := 5
 	ptr := &x
 	fmt.Printf("Endereço na memória: ")
