@@ -1,0 +1,8 @@
+Estruturas de repetição
+ - for
+Estruturas de condições
+ - if, else
+ - switch case
+Estruturas de "Pulo"
+ - break
+ - continue
