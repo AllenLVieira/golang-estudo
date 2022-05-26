@@ -19,4 +19,20 @@ func main() {
 		fmt.Println(i)
 	}
 	fmt.Println(marcador)
+
+	dia := "Sexta"
+	switch dia {
+	case "Sexta":
+		fmt.Println("Hoje é sexta")
+	case "Segunta", "Terça", "Quarta":
+		fmt.Println("Dia chato")
+	default:
+		fmt.Println("Padrão")
+	}
+
+	switch {
+	case dia == "Sexta":
+		fmt.Println("Hoje é sexta")
+		break
+	}
 }
